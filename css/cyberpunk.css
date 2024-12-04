@@ -11756,7 +11756,7 @@ figure.highlight.foldable div.level-left {
 .gallery-authors {
   margin: 0;
   color: #555;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .gallery-authors a {
   text-decoration: none;
@@ -11766,7 +11766,7 @@ figure.highlight.foldable div.level-left {
   text-decoration: underline;
 }
 .gallery-description {
-  font-size: 0.9rem;
+  font-size: 1, 0rem;
   color: #777;
   margin: 5px 0 10px;
 }
@@ -11804,6 +11804,29 @@ figure.highlight.foldable div.level-left {
 .gallery-content p {
   word-wrap: break-word;
   overflow: hidden;
+}
+.author-underline {
+  position: relative;
+}
+.author-underline::after {
+  content: '';
+  position: absolute;
+  left: 0%;
+  right: 15%;
+  bottom: -2px;
+  height: 1px;
+  background-color: currentColor;
+}
+.abstract-content {
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px dashed #ccc;
+  background-color: #f9f9f9;
+  display: none;
+  transition: all 0.3s ease;
+}
+.abstract-content.is-open {
+  display: block;
 }
 body {
   counter-reset: card;
