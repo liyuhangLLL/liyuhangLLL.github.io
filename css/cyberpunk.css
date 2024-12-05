@@ -11828,6 +11828,113 @@ figure.highlight.foldable div.level-left {
 .abstract-content.is-open {
   display: block;
 }
+.publications-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.publications-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.gallery-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #fff;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.gallery-image {
+  flex: 0 0 250px;
+  max-width: 250px;
+  height: auto;
+}
+.gallery-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.gallery-content {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 700px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.gallery-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.gallery-authors {
+  margin: 0;
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.gallery-description {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 5px 0 10px;
+}
+.gallery-buttons {
+  display: flex;
+  gap: 10px;
+}
+.gallery-buttons .button {
+  padding: 5px 10px;
+  border: 1px solid #007acc;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #007acc;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+.gallery-buttons .button:hover {
+  background-color: #007acc;
+  color: #fff;
+}
+.gallery-year {
+  flex: 0 0 60px;
+  font-size: 2.5rem;
+  color: #e0e0e0;
+  font-weight: bold;
+  text-align: right;
+  margin-left: auto;
+}
+@media (max-width: 1024px) {
+  .gallery-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .gallery-content {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .gallery-image {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .gallery-content {
+    text-align: left;
+  }
+}
 body {
   counter-reset: card;
 }
