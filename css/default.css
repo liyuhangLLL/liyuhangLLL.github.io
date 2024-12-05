@@ -11721,22 +11721,6 @@ figure.highlight.foldable div.level-left {
 .article-more:hover {
   background-color: #005fa3;
 }
-.gallery-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 15px;
-  padding: 15px 10px;
-  margin-bottom: 20px;
-  border-bottom: 1px solid #eee;
-  position: relative;
-}
-.gallery-image img {
-  width: 250px;
-  height: auto;
-  object-fit: cover;
-  border-radius: 5px;
-}
 .gallery-content {
   flex-grow: 1;
   margin-right: 10px;
@@ -11746,8 +11730,6 @@ figure.highlight.foldable div.level-left {
   font-weight: bold;
   margin: 0;
   margin-bottom: 5px;
-}
-.gallery-title {
   max-width: 700px;
   word-wrap: break-word;
   white-space: normal;
@@ -11784,15 +11766,6 @@ figure.highlight.foldable div.level-left {
 }
 .gallery-buttons .button:hover {
   background-color: #f0f0f0;
-}
-.gallery-year {
-  flex-shrink: 0;
-  width: 50px;
-  text-align: right;
-  font-size: 2rem;
-  color: #e0e0e0;
-  font-weight: bold;
-  margin-right: 20px;
 }
 .container h1 {
   font-size: 2.4rem;
@@ -11834,51 +11807,15 @@ figure.highlight.foldable div.level-left {
   padding: 20px;
   box-sizing: border-box; /* Include padding in width */
 }
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .publications-container {
     width: 100%;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .publications-container {
-    width: 120%; /* Larger width ratio */
-    max-width: 120%;
-  }
-}
-@media (min-width: 870px) {
-  .publications-container {
-    width: 400%; /* Larger width ratio */
-    max-width: 848px;
-  }
-}
-@media (min-width: 992px) {
-  .publications-container {
-    width: 160%; /* Larger width ratio */
-    max-width: 960px;
-  }
-}
-@media (min-width: 1200px) {
-  .publications-container {
-    width: 160%; /* Larger width ratio */
-    max-width: 1140px;
-  }
-}
-@media (min-width: 1400px) {
-  .publications-container {
-    width: 160%; /* Maximum width ratio */
-    max-width: 1280px;
-  }
-}
-@media (min-width: 1920px) {
-  .publications-container {
-    width: 160%; /* Maximum width ratio */
-    max-width: 1440px;
-  }
-}
-@media (min-width: 2560px) {
-  .publications-container {
-    width: 160%; /* Maximum width ratio */
-    max-width: 1800px;
+    width: 155%; /* Larger width ratio */
+    max-width: 155%;
   }
 }
 .container h1 {
@@ -11899,7 +11836,7 @@ figure.highlight.foldable div.level-left {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 20px;
+  gap: 5px;
   padding: 15px;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -11914,52 +11851,24 @@ figure.highlight.foldable div.level-left {
   flex: 0 0 250px; /* Default size for desktop */
   max-width: 250px;
   height: auto;
-  margin: 5px 0; /* Minimal vertical spacing */
+  margin: 0; /* Minimal vertical spacing */
 }
 .gallery-image img {
   width: 100%; /* Allow the image to fill its container */
-  max-width: 250px; /* Constrain max width for smaller screens */
   height: auto;
   object-fit: cover;
   border-radius: 5px;
 }
-@media (max-width: 480px) {
+@media (max-width: 769px) {
   .gallery-image {
     flex: 0 0 100%;
     max-width: 100%;
   }
   .gallery-image img {
-    max-width: 90%;
-  }
-}
-@media (min-width: 480px) and (max-width: 600px) {
-  .gallery-image {
-    flex: 0 0 100%;
     max-width: 100%;
   }
-  .gallery-image img {
-    max-width: 90%;
-  }
 }
-@media (min-width: 600px) {
-  .gallery-image {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-  .gallery-image img {
-    max-width: 200px;
-  }
-}
-@media (min-width: 768px) {
-  .gallery-image {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-  .gallery-image img {
-    max-width: 240px;
-  }
-}
-@media (min-width: 992px) {
+@media (min-width: 769px) {
   .gallery-image {
     flex: 0 0 300px;
     max-width: 300px;
@@ -12004,12 +11913,6 @@ figure.highlight.foldable div.level-left {
     max-width: 680px;
   }
 }
-@media (max-width: 768px) {
-  .gallery-image {
-    flex: 0 0 100%;
-    max-width: 100%;
-  }
-}
 @media (max-width: 1024px) {
   .gallery-image {
     flex: 0 0 100%;
@@ -12030,7 +11933,7 @@ figure.highlight.foldable div.level-left {
   max-width: 700px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  margin: 5px 0; /* Reduce vertical margins */
+  margin: 0; /* Reduce vertical margins */
 }
 .gallery-title {
   font-size: 1.5rem;
