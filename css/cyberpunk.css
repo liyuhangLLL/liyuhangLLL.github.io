@@ -11829,10 +11829,50 @@ figure.highlight.foldable div.level-left {
   display: block;
 }
 .publications-container {
-  max-width: 1200px;
+  width: 100%;
+  max-width: 100%;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
+}
+@media (min-width: 600px) {
+  .publications-container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .publications-container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .publications-container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .publications-container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .publications-container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1920px) {
+  .publications-container {
+    max-width: 1440px;
+  }
+}
+@media (min-width: 2560px) {
+  .publications-container {
+    max-width: 1800px;
+  }
+}
+.container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 .publications-title {
   font-size: 2.4rem;
@@ -11842,20 +11882,19 @@ figure.highlight.foldable div.level-left {
 .gallery {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 1rem;
 }
 .gallery-item {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
   gap: 20px;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   background-color: #fff;
-  width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
+  transition: all 0.3s ease;
 }
 .gallery-image {
   flex: 0 0 250px;
