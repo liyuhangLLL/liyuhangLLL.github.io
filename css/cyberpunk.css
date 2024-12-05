@@ -11829,46 +11829,31 @@ figure.highlight.foldable div.level-left {
   display: block;
 }
 .publications-container {
-  width: 100%;
-  max-width: 100%;
+  width: 160%;
+  max-width: 160%;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
 }
+@media (max-width: 320px) {
+}
+@media (min-width: 321px) and (max-width: 480px) {
+}
+@media (min-width: 481px) and (max-width: 599px) {
+}
 @media (min-width: 600px) {
-  .publications-container {
-    max-width: 540px;
-  }
 }
 @media (min-width: 768px) {
-  .publications-container {
-    max-width: 720px;
-  }
 }
 @media (min-width: 992px) {
-  .publications-container {
-    max-width: 960px;
-  }
 }
 @media (min-width: 1200px) {
-  .publications-container {
-    max-width: 1140px;
-  }
 }
 @media (min-width: 1400px) {
-  .publications-container {
-    max-width: 1280px;
-  }
 }
 @media (min-width: 1920px) {
-  .publications-container {
-    max-width: 1440px;
-  }
 }
 @media (min-width: 2560px) {
-  .publications-container {
-    max-width: 1800px;
-  }
 }
 .container h1 {
   font-size: 2.5rem;
@@ -11889,23 +11874,126 @@ figure.highlight.foldable div.level-left {
   flex-direction: row;
   align-items: flex-start;
   gap: 20px;
-  padding: 20px;
+  padding: 15px;
   border: 1px solid #ddd;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   background-color: #fff;
   transition: all 0.3s ease;
 }
+.gallery-item:hover {
+  transform: scale(1.02);
+}
 .gallery-image {
-  flex: 0 0 250px;
+  flex: 0 0 250px; /* Default size for desktop */
   max-width: 250px;
   height: auto;
 }
 .gallery-image img {
-  width: 100%;
+  width: 100%; /* Allow the image to fill its container */
+  max-width: 250px; /* Constrain max width for smaller screens */
   height: auto;
   object-fit: cover;
   border-radius: 5px;
+}
+@media (max-width: 480px) {
+  .gallery-image {
+    flex: 0 0 120px;
+    max-width: 120px;
+  }
+  .gallery-image img {
+    max-width: 120px;
+  }
+}
+@media (max-width: 360px) {
+  .gallery-image {
+    flex: 0 0 100px;
+    max-width: 100px;
+  }
+  .gallery-image img {
+    max-width: 100px;
+  }
+}
+@media (max-width: 320px) {
+  .gallery-image {
+    flex: 0 0 80px;
+    max-width: 80px;
+  }
+  .gallery-image img {
+    max-width: 80px;
+  }
+}
+@media (min-width: 480px) and (max-width: 600px) {
+  .gallery-image {
+    flex: 0 0 180px;
+    max-width: 180px;
+  }
+  .gallery-image img {
+    max-width: 180px;
+  }
+}
+@media (min-width: 600px) {
+  .gallery-image {
+    flex: 0 0 200px;
+    max-width: 200px;
+  }
+  .gallery-image img {
+    max-width: 200px;
+  }
+}
+@media (min-width: 768px) {
+  .gallery-image {
+    flex: 0 0 240px;
+    max-width: 240px;
+  }
+  .gallery-image img {
+    max-width: 240px;
+  }
+}
+@media (min-width: 992px) {
+  .gallery-image {
+    flex: 0 0 300px;
+    max-width: 300px;
+  }
+  .gallery-image img {
+    max-width: 300px;
+  }
+}
+@media (min-width: 1200px) {
+  .gallery-image {
+    flex: 0 0 360px;
+    max-width: 360px;
+  }
+  .gallery-image img {
+    max-width: 360px;
+  }
+}
+@media (min-width: 1400px) {
+  .gallery-image {
+    flex: 0 0 420px;
+    max-width: 420px;
+  }
+  .gallery-image img {
+    max-width: 420px;
+  }
+}
+@media (min-width: 1920px) {
+  .gallery-image {
+    flex: 0 0 540px;
+    max-width: 540px;
+  }
+  .gallery-image img {
+    max-width: 540px;
+  }
+}
+@media (min-width: 2560px) {
+  .gallery-image {
+    flex: 0 0 680px;
+    max-width: 680px;
+  }
+  .gallery-image img {
+    max-width: 680px;
+  }
 }
 .gallery-content {
   flex: 1 1 0;
