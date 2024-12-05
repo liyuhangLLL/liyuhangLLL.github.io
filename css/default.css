@@ -11680,7 +11680,7 @@ figure.highlight.foldable div.level-left {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 .container h1 {
   font-size: 2.4rem;
@@ -11690,15 +11690,16 @@ figure.highlight.foldable div.level-left {
 .gallery {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
   padding: 10px 0;
 }
 .gallery-item {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: flex-start;
   gap: 20px;
-  padding: 15px;
+  padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -11706,24 +11707,29 @@ figure.highlight.foldable div.level-left {
   width: 100%;
   max-width: 100%;
 }
-.gallery-image img {
+.gallery-image {
+  flex-shrink: 0;
   width: 250px;
   height: auto;
   object-fit: cover;
   border-radius: 5px;
 }
+.gallery-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
 .gallery-content {
   flex-grow: 1;
-  margin-top: 0;
-  margin-bottom: 0;
-  width: calc(100% - 270px);
-  overflow-wrap: break-word;
+  margin: 0;
+  width: calc(100% - 300px);
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
 }
 .gallery-title {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 5px;
-  max-width: 700px;
   word-wrap: break-word;
   white-space: normal;
 }
@@ -11731,18 +11737,6 @@ figure.highlight.foldable div.level-left {
   margin: 0;
   color: #555;
   font-size: 1rem;
-}
-.author-underline {
-  position: relative;
-}
-.author-underline::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 15%;
-  bottom: -2px;
-  height: 1px;
-  background-color: currentColor;
 }
 .gallery-description {
   font-size: 0.9rem;
@@ -11772,8 +11766,8 @@ figure.highlight.foldable div.level-left {
   color: #e0e0e0;
   font-weight: bold;
   text-align: right;
-  margin-top: auto;
-  margin-right: 10px;
+  margin-left: auto;
+  margin-right: 20px;
 }
 .abstract-content {
   padding: 10px;
