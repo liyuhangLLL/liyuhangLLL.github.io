@@ -11828,6 +11828,85 @@ figure.highlight.foldable div.level-left {
 .abstract-content.is-open {
   display: block;
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container h1 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px 0;
+}
+.gallery-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+.gallery-image img {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.gallery-content {
+  flex-grow: 1;
+  width: calc(100% - 270px);
+  margin-top: 10px;
+}
+.gallery-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+  white-space: normal;
+}
+.gallery-authors {
+  margin: 0;
+  color: #555;
+  font-size: 1rem;
+}
+.gallery-description {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 5px 0 10px;
+}
+.gallery-buttons {
+  display: flex;
+  gap: 10px;
+}
+.gallery-buttons .button {
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #000;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+.gallery-buttons .button:hover {
+  background-color: #f0f0f0;
+}
+.gallery-year {
+  flex-shrink: 0;
+  font-size: 2rem;
+  color: #e0e0e0;
+  font-weight: bold;
+  text-align: right;
+  margin-top: auto;
+}
 body {
   counter-reset: card;
 }
