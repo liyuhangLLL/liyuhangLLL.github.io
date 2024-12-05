@@ -11835,34 +11835,21 @@ figure.highlight.foldable div.level-left {
   padding: 20px;
   box-sizing: border-box; /* Include padding in width */
 }
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .publications-container {
-    width: 150%; /* Occupy 90% of parent width */
-    max-width: 280px; /* Cap to 280px */
-  }
-}
-@media (min-width: 321px) and (max-width: 480px) {
-  .publications-container {
-    width: 160%; /* Occupy 85% of parent width */
-    max-width: 320px; /* Cap to 320px */
-  }
-}
-@media (min-width: 481px) and (max-width: 599px) {
-  .publications-container {
-    width: 160%; /* Occupy 80% of parent width */
-    max-width: 480px; /* Cap to 480px */
-  }
-}
-@media (min-width: 600px) {
-  .publications-container {
-    width: 240%; /* Larger width ratio */
-    max-width: 540px;
+    width: 100%;
   }
 }
 @media (min-width: 768px) {
   .publications-container {
+    width: 120%; /* Larger width ratio */
+    max-width: 120%;
+  }
+}
+@media (min-width: 870px) {
+  .publications-container {
     width: 400%; /* Larger width ratio */
-    max-width: 720px;
+    max-width: 848px;
   }
 }
 @media (min-width: 992px) {
@@ -11897,7 +11884,7 @@ figure.highlight.foldable div.level-left {
 }
 .container h1 {
   font-size: 2.5rem;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 .publications-title {
   font-size: 2.4rem;
@@ -11928,6 +11915,7 @@ figure.highlight.foldable div.level-left {
   flex: 0 0 250px; /* Default size for desktop */
   max-width: 250px;
   height: auto;
+  margin: 5px 0; /* Minimal vertical spacing */
 }
 .gallery-image img {
   width: 100%; /* Allow the image to fill its container */
@@ -11938,35 +11926,26 @@ figure.highlight.foldable div.level-left {
 }
 @media (max-width: 480px) {
   .gallery-image {
-    flex: 0 0 120px;
-    max-width: 120px;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
   .gallery-image img {
-    max-width: 120px;
-  }
-}
-@media (max-width: 320px) {
-  .gallery-image {
-    flex: 0 0 80px;
-    max-width: 80px;
-  }
-  .gallery-image img {
-    max-width: 80px;
+    max-width: 90%;
   }
 }
 @media (min-width: 480px) and (max-width: 600px) {
   .gallery-image {
-    flex: 0 0 180px;
-    max-width: 180px;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
   .gallery-image img {
-    max-width: 180px;
+    max-width: 90%;
   }
 }
 @media (min-width: 600px) {
   .gallery-image {
-    flex: 0 0 200px;
-    max-width: 200px;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
   .gallery-image img {
     max-width: 200px;
@@ -11974,8 +11953,8 @@ figure.highlight.foldable div.level-left {
 }
 @media (min-width: 768px) {
   .gallery-image {
-    flex: 0 0 240px;
-    max-width: 240px;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
   .gallery-image img {
     max-width: 240px;
@@ -12031,17 +12010,18 @@ figure.highlight.foldable div.level-left {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .gallery-content {
-    text-align: left;
-  }
 }
 @media (max-width: 1024px) {
+  .gallery-image {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
   .gallery-item {
     flex-direction: column;
     align-items: center;
   }
   .gallery-content {
-    max-width: 500%;
+    max-width: 100%;
     text-align: center;
   }
 }
@@ -12051,6 +12031,7 @@ figure.highlight.foldable div.level-left {
   max-width: 700px;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  margin: 5px 0; /* Reduce vertical margins */
 }
 .gallery-title {
   font-size: 1.5rem;
