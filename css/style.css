@@ -11879,20 +11879,20 @@ figure.highlight.foldable div.level-left {
 }
 @media (min-width: 1200px) {
   .gallery-image {
-    flex: 0 0 360px;
-    max-width: 360px;
+    flex: 0 0 320px;
+    max-width: 320px;
   }
   .gallery-image img {
-    max-width: 360px;
+    max-width: 320px;
   }
 }
 @media (min-width: 1400px) {
   .gallery-image {
-    flex: 0 0 420px;
-    max-width: 420px;
+    flex: 0 0 400px;
+    max-width: 400px;
   }
   .gallery-image img {
-    max-width: 420px;
+    max-width: 400px;
   }
 }
 @media (min-width: 1920px) {
