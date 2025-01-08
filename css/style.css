@@ -11976,3 +11976,9 @@ figure.highlight.foldable div.level-left {
   text-align: right;
   margin-left: auto;
 }
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
