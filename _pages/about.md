@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Bio- and Nano-photonics Lab</p>
-    <p>University of California, Los Angeles</p>
+    <p>UCLA</p>
     <p>Los Angeles, CA</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
