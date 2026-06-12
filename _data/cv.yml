@@ -44,7 +44,7 @@ cv:
         end_date: 2026-09
 
       - company: Daheng Optics Incorporation
-        position: Intern
+        position: Optical Engineer Intern
         location: Shanghai, China
         start_date: 2020-07
         end_date: 2020-08
@@ -109,6 +109,10 @@ cv:
           - Worked in a cross-lab collaboration spanning terahertz hardware, spectroscopy, and deep learning to align model outputs with real physical measurements.
 
     Awards:
+      - title: Dissertation Year Award Fellowship (Fall 2026)
+        date: 2026-09-01
+        awarder: UCLA
+
       - title: Emil Wolf Outstanding Student Paper Competition
         date: 2024-10-01
         awarder: Optica, Frontiers in Optics + Laser Science (FiO LS)
