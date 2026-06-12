@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone *)",
+      "WebFetch(domain:scholar.google.com)",
+      "WebFetch(domain:liyuhanglll.github.io)",
+      "Bash(curl -s https://liyuhanglll.github.io/)",
+      "Bash(curl -s -o /Users/yuhangli/Documents/Projects/my-website/assets/img/prof_pic.jpg https://liyuhanglll.github.io/img/profile2.jpg)",
+      "Bash(rm -f _posts/*.md _news/*.md _projects/*.md _books/*.md _teachings/*.md _pages/about_einstein.md _pages/books.md _pages/teaching.md _pages/dropdown.md _pages/plugins.md _pages/profiles.md && ls _pages)",
+      "Bash(sed -i '' 's/^nav_order: 1$/nav_order: 5/' _pages/blog.md)",
+      "Bash(sed -i '' 's/^nav_order: 2$/nav_order: 1/' _pages/publications.md)",
+      "Bash(sed -i '' 's/^nav_order: 3$/nav_order: 2/' _pages/projects.md)",
+      "Bash(sed -i '' 's/^nav_order: 5$/nav_order: 3/' _pages/cv.md)",
+      "Bash(ruby -v)",
+      "Bash(gem -v)",
+      "Read(//opt/homebrew/opt/ruby/**)",
+      "Bash(docker info *)",
+      "Bash(brew --version)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(brew install *)",
+      "Bash(python3 -c ' *)",
+      "Bash(ruby -e ' *)",
+      "Bash(rm -rf .git)",
+      "Bash(git init *)",
+      "Bash(tail -3 /private/tmp/claude-501/-Users-yuhangli-Documents-Projects-my-website/6bb1f7ec-9878-4e99-8668-0b965a67ce5f/tasks/bl3kgm1zx.output 2>/dev/null; echo ===; ls /opt/homebrew/opt/ruby/bin 2>/dev/null | head -3)",
+      "Read(//opt/homebrew/Cellar/ruby/4.0.5/bin/**)",
+      "Bash(git add *)",
+      "Bash(git -c 'user.name=Yuhang Li' -c user.email=yuhanglizju@gmail.com commit -q -m 'Initial personal website based on al-folio *)"
+    ],
+    "additionalDirectories": [
+      "/Users/yuhangli/Documents/Projects/my-website/_posts"
+    ]
+  }
+}

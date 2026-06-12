@@ -1,0 +1,117 @@
+cv:
+  name: Yuhang Li
+  label: Ph.D. Candidate
+  email: yuhanglizju@gmail.com
+  location: Los Angeles, CA
+  image: ""
+  summary: Ph.D. candidate in Electrical and Computer Engineering at UCLA, working on computational imaging and optical neural networks in the Bio- and Nano-photonics Lab of Prof. Aydogan Ozcan.
+
+  social_networks:
+    - network: GitHub
+      username: liyuhangLLL
+    - network: LinkedIn
+      username: yuhang-li-7865201ba
+
+  sections:
+    Education:
+      - institution: University of California, Los Angeles (UCLA)
+        location: Los Angeles, CA, USA
+        url: https://www.ee.ucla.edu/
+        area: Electrical and Computer Engineering
+        studyType: Ph.D.
+        start_date: 2021
+        end_date: present
+        highlights:
+          - Advisor — Prof. Aydogan Ozcan, Bio- and Nano-photonics Lab.
+          - Advanced to doctoral candidacy in March 2024.
+          - Research on computational imaging, diffractive optical networks, and optical computing.
+
+      - institution: Zhejiang University
+        location: Hangzhou, China
+        url: https://www.zju.edu.cn/english/
+        area: Optical Science and Engineering
+        studyType: B.Eng.
+        start_date: 2017
+        end_date: 2021
+
+    Research Interests:
+      - name: Computational Imaging
+        icon: fa-solid fa-camera
+        keywords: "Quantitative phase imaging, imaging through scattering media, terahertz imaging, complex field imaging"
+
+      - name: Optical Neural Networks
+        icon: fa-solid fa-brain
+        keywords: "Diffractive optical processors, optical generative models, nonlinear optical information processing, in situ training of physical neural networks"
+
+    Awards:
+      - title: Silver Award, Best Early Career Researcher Presentation
+        date: 2023-08-01
+        awarder: SPIE Optics + Photonics
+        summary: Awarded the silver prize for the best early career researcher oral presentation at SPIE Optics + Photonics 2023.
+
+      - title: Finalist, Emil Wolf Outstanding Student Paper Competition
+        date: 2024-10-01
+        awarder: Optica, Frontiers in Optics + Laser Science (FiO LS) 2024
+        summary: Selected for the Emil Wolf Outstanding Student Paper Competition at FiO LS 2024.
+
+    Selected Publications:
+      - title: "Model-free optical processors using in situ reinforcement learning with proximal policy optimization"
+        authors:
+          - Yuhang Li
+          - Shiqi Chen
+          - Tianhao Gong
+          - Aydogan Ozcan
+        publisher: "Light: Science & Applications"
+        releaseDate: 2026
+        summary: First-author work demonstrating in situ training of optical processors with reinforcement learning, without requiring a digital model of the physical system.
+
+      - title: "Optical generative models"
+        authors:
+          - Shiqi Chen
+          - Yuhang Li
+          - Yuntian Wang
+          - Hanlong Chen
+          - Aydogan Ozcan
+        publisher: Nature
+        releaseDate: 2025
+        summary: Snapshot optical generative models that synthesize novel images through light diffraction.
+
+      - title: "Nonlinear encoding in diffractive information processing using linear optical materials"
+        authors:
+          - Yuhang Li
+          - Jingxi Li
+          - Aydogan Ozcan
+        publisher: "Light: Science & Applications"
+        releaseDate: 2024
+        summary: First-author perspective on achieving nonlinear information processing using linear optical materials.
+
+      - title: "Universal polarization transformations: Spatial programming of polarization scattering matrices using a deep learning-designed diffractive polarization transformer"
+        authors:
+          - Yuhang Li
+          - et al.
+        publisher: Advanced Materials
+        releaseDate: 2023
+        summary: First-author work on deep learning-designed diffractive polarization transformers.
+
+    Skills:
+      - name: Optics & Photonics
+        level: Expert
+        icon: fa-solid fa-lightbulb
+        keywords: "Diffractive optics, optical system design, holography, microscopy, terahertz imaging"
+
+      - name: Machine Learning
+        level: Expert
+        icon: fa-solid fa-robot
+        keywords: "PyTorch, deep learning, reinforcement learning, generative models, physics-informed learning"
+
+      - name: Programming
+        level: Advanced
+        icon: fa-solid fa-code
+        keywords: "Python, MATLAB, CUDA, Git"
+
+    Languages:
+      - name: Chinese (Mandarin)
+        summary: "Native speaker"
+
+      - name: English
+        summary: "Fluent"

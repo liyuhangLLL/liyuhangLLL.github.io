@@ -1,0 +1,9 @@
+# Coauthor links: matches author last names in _bibliography/papers.bib
+# and turns them into hyperlinks on the publications page.
+"ozcan":
+  - firstname: ["Aydogan", "A."]
+    url: https://research.seas.ucla.edu/ozcan/
+
+"jarrahi":
+  - firstname: ["Mona", "M."]
+    url: https://www.seas.ucla.edu/~mjarrahi/
