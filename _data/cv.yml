@@ -36,7 +36,23 @@ cv:
           - GPA — 3.95/4.0 (Rank — 3/130).
           - "Thesis: Super-Resolution Imaging (advisor: Cuifang Kuang)."
 
-    Experience:
+    Industry Experience:
+      - company: Meta Reality Labs
+        position: Research Scientist Intern
+        location: Redmond, WA
+        start_date: 2026-06
+        end_date: 2026-09
+
+      - company: Daheng Optics Incorporation
+        position: Intern
+        location: Shanghai, China
+        start_date: 2020-07
+        end_date: 2020-08
+        highlights:
+          - Developed a diffractive phase microscope leveraging zero-order and first-order interference to extract phase profiles of samples, enabling accurate phase reconstruction of ~10 um plastic micro-beads.
+          - Built a Time-Domain Optical Coherence Tomography (TD-OCT) system to extract depth information, achieving micron-scale depth detection through ~150-200 um of overlaid tape.
+
+    Academic Experience:
       - company: UCLA
         position: Optical Generative Model
         location: Los Angeles, CA
@@ -91,22 +107,6 @@ cv:
           - Engineered a transformer-based spectral-spatial model for semantic segmentation of chemical components from raw terahertz spectral data, achieving 90% pixel-level accuracy and enabling robust material recognition.
           - Developed a physics-aware post-processing pipeline (morphological filtering + spatial consistency) to suppress noise and boost image-level classification to >95%.
           - Worked in a cross-lab collaboration spanning terahertz hardware, spectroscopy, and deep learning to align model outputs with real physical measurements.
-
-    Volunteer: # rendered under the combined "Experience" heading, after the research entries
-      - company: Meta Reality Labs
-        position: Research Scientist Intern
-        location: Redmond, WA
-        start_date: 2026-06
-        end_date: 2026-09
-
-      - company: Daheng Optics Incorporation
-        position: Intern
-        location: Shanghai, China
-        start_date: 2020-07
-        end_date: 2020-08
-        highlights:
-          - Developed a diffractive phase microscope leveraging zero-order and first-order interference to extract phase profiles of samples, enabling accurate phase reconstruction of ~10 um plastic micro-beads.
-          - Built a Time-Domain Optical Coherence Tomography (TD-OCT) system to extract depth information, achieving micron-scale depth detection through ~150-200 um of overlaid tape.
 
     Awards:
       - title: Emil Wolf Outstanding Student Paper Competition
