@@ -37,12 +37,6 @@ cv:
           - "Thesis: Super-Resolution Imaging (advisor: Cuifang Kuang)."
 
     Experience:
-      - company: Meta Reality Labs
-        position: Research Scientist Intern
-        location: Redmond, WA
-        start_date: 2026-06
-        end_date: 2026-09
-
       - company: UCLA
         position: Optical Generative Model
         location: Los Angeles, CA
@@ -99,6 +93,12 @@ cv:
           - Worked in a cross-lab collaboration spanning terahertz hardware, spectroscopy, and deep learning to align model outputs with real physical measurements.
 
     Volunteer: # rendered under the combined "Experience" heading, after the research entries
+      - company: Meta Reality Labs
+        position: Research Scientist Intern
+        location: Redmond, WA
+        start_date: 2026-06
+        end_date: 2026-09
+
       - company: Daheng Optics Incorporation
         position: Intern
         location: Shanghai, China
