@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. candidate, <a href='https://www.ee.ucla.edu/'>Electrical and Computer Engineering, UCLA</a>
+subtitle:
 
 profile:
   align: right

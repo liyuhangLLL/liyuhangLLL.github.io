@@ -4,7 +4,7 @@ cv:
   email: yuhanglizju@gmail.com
   location: Los Angeles, CA
   image: ""
-  summary: Researcher with deep experience in AI-driven physical systems, spanning computational imaging, optical hardware, and deep learning. Skilled in diffractive optics, digital-optical hybrid system design, and image signal processing (ISP) pipelines. Proven ability to develop and optimize deep learning models, bridging physics-based modeling with AI approaches. Author of 30+ peer-reviewed papers in leading journals, including Nature and Science, with more than 1,300 citations.
+  summary: Researcher with deep experience in AI-driven physical systems, spanning computational imaging, optical hardware, and deep learning. Skilled in diffractive optics, digital–optical hybrid system design, inverse problems, and image signal processing pipelines. Experienced in applying modern representation learning and vision foundation models, including self-supervised and multimodal models such as DINO and CLIP, to physics-aware imaging and sensing problems. Proven ability to bridge optical system modeling, experimental hardware, and AI-based optimization for end-to-end imaging and perception systems. Author of 30+ peer-reviewed papers in leading journals, including Nature and Science, with more than 1,300 citations.
 
   social_networks:
     - network: GitHub
