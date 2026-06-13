@@ -137,7 +137,7 @@ cv:
 
       - name: Laboratory
         icon: fa-solid fa-flask
-        keywords: "Optical simulation, optical system prototyping, Arduino, Raspberry Pi, 3D printing"
+        keywords: "Optical simulation, Optical system prototyping, Arduino, Raspberry Pi, 3D printing"
 
     Languages:
       - name: Chinese (Mandarin)
