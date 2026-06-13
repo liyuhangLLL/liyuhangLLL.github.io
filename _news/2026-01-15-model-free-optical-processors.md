@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper on **model-free optical processors using in situ reinforcement learning** was published in [*Light: Science & Applications*](https://www.nature.com/lsa/)! 🔦
+Our paper on **model-free optical processors using in situ reinforcement learning** was published in [*Light: Science & Applications*](https://www.nature.com/articles/s41377-025-02148-7)! 🔦
